@@ -36,3 +36,6 @@ footer {
   color: #777;
   border-top: 1px solid #eaeaea;
 }
+.logo img{
+  height: 40px;
+}
