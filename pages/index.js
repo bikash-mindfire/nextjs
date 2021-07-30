@@ -1,15 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
 import styles from '../styles/Home.module.css'
-
 export default function Home() {
   return (
-    <div>
-      <Navbar />
-      <h1>Hello</h1>
-      <Footer />
+    <div >
+      <h1 className={styles.title}>Hello</h1>
+      <p className={styles.text}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos quis nesciunt, dolores illum reiciendis sequi odio soluta nostrum eaque obcaecati. Beatae placeat, magnam illum nulla, debitis quae aliquam vitae quasi ut amet veritatis ad sapiente harum, optio tempora rerum. Provident quia ratione sunt earum delectus qui labore optio nisi asperiores! Debitis quaerat quod, vel rem sapiente possimus modi, repellat aspernatur non sint, quasi ea dolorum. Laborum eos libero reprehenderit doloremque placeat, amet voluptatum nesciunt voluptatem, provident reiciendis facere magnam ipsa facilis suscipit, optio odio delectus! Rem quas in animi ipsam! Voluptatum inventore dolores doloribus quibusdam tempora sed in asperiores laudantium ex? At, quis exercitationem debitis consequuntur illum blanditiis odit, tempore nemo repudiandae maiores corporis quisquam rem soluta totam officia cupiditate. Perspiciatis, autem odio. Adipisci voluptatem quibusdam explicabo labore, veniam nostrum quod aperiam molestiae, tenetur, consectetur placeat! Mollitia, harum. Necessitatibus earum dolores soluta sit aperiam aliquid provident sapiente ratione, voluptatibus vero animi eaque illum possimus harum! Nam ratione porro, dolore, earum autem magni laboriosam, ab quasi officiis omnis inventore veniam labore iste. Similique ratione ad tenetur consequatur dignissimos perferendis explicabo illo assumenda veniam nobis iusto dolore omnis fugiat pariatur, beatae quibusdam quasi quod magnam quis eveniet aliquam nihil quam quisquam! Ipsum fuga pariatur impedit quidem quis placeat et eius voluptate, saepe suscipit consequatur inventore blanditiis libero nisi eaque voluptas quae expedita unde. Neque voluptatibus numquam culpa natus quisquam possimus cupiditate ex magni itaque, aliquid voluptatum ipsam optio quibusdam fugiat. Nam, amet. Et pariatur delectus eveniet accusamus aperiam eaque sequi natus cupiditate dignissimos voluptates beatae, maiores dolore! Repellat eligendi explicabo beatae quisquam sunt, dolores rem dolorem neque. Labore adipisci ex minima facilis culpa doloribus, ducimus quibusdam quos consectetur, soluta fugit optio amet earum reprehenderit atque, accusamus vero itaque similique. Vel laudantium aut ad, maxime eum nesciunt. Quas quibusdam commodi aliquid repudiandae delectus.</p>
     </div>
   )
 }
